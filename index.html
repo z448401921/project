@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>后台首页</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/all.css" rel="stylesheet" type="text/css" />
+		<link href="css/pageout.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/icheck.min.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function() {
+				//input check radio 自定义样式插件
+				$('input').iCheck({
+					checkboxClass: 'icheckbox_minimal-green',
+					radioClass: 'iradio_minimal-green',
+					increaseArea: '20%' // optional
+				});
+			});
+		</script>
+		<!--[if lt IE 9]>
+	      	 <script src="js/html5shiv.min.js"></script>
+	      	 <script src="js/respond.min.js"></script>	      	 
+		 <![endif]-->
+	</head>
+
+	<body>
+		<div class="container-fluid top-bar">
+			<div class="logo">
+				<a href="#">
+					<img src="images/logo.png">
+				</a>
+			</div>
+			<button class="btn btn-default"><i class="glyphicon glyphicon-th"></i>
+			</button>
+			<div class="btn-group admin-icon">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<i class="glyphicon glyphicon-user"></i> admin&nbsp;&nbsp;<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu dropdown-menu-right" role="menu">
+					<span></span>
+					<li><a href="#"><i class="glyphicon glyphicon-home"></i>平衡点首页</a>
+					</li>
+					<li><a href="#"><i class="glyphicon glyphicon-off"></i>退出系统</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container-fluid main-body">
+			<div class="left-past">
+				<ul>
+					<li><a href="#"><i class="glyphicon glyphicon-home"></i>首页</a>
+					</li>
+					<li><a href="#" class="active"><i class="glyphicon glyphicon-compressed"></i>广告分析</a>
+					</li>
+					<li><a href="#"><i class="glyphicon glyphicon-time"></i>时段统计</a>
+					</li>
+					<li><a href="#"><i class="glyphicon glyphicon-film"></i>媒体月表分析</a>
+					</li>
+					<li><a href="#"><i class="glyphicon glyphicon-sound-5-1"></i>时段结构分析</a>
+					</li>
+				</ul>
+			</div>
+			<div class="right-past">
+				<div class="container-fluid">
+					<div class="sort-term">
+						<div class="sort-list-small">
+							<h3>媒体</h3>
+							<div class="sort-list-wrap">
+								<ul>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+									<li><input type="checkbox">湖南电视台卫星频道</li>
+								</ul>
+							</div>
+						</div>
+						<div class="sort-list-small">
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
